@@ -1,4 +1,0 @@
-Las apis que hemos pensado son las siguientes:
-API DEEZER - https://developers.deezer.com/login?redirect=/api
-API SPOTIFY - https://developer.spotify.com/documentation/web-api
-API SOUNDCLOUD -https://developers.soundcloud.com/docs/api/guide#authentication
