@@ -39,3 +39,21 @@ if ($conn->connect_error) {
 -Colocar la carpeta src en la carpeta htdocs de Apache
 
 -Lanzar ```index.html```
+
+
+# LabBook
+## 1 de Abril
+
+Desarrollamos las bases del proyecto, buscando información al respecto.
+
+## 8 de Abril
+
+Se desarrolla la página web del proyecto.
+
+## 15 de Abril
+
+Se desarrolla una base de datos inicial con una estructura que servira para su posterior ampliación.
+
+## 22 de Abril
+
+Finalización del proyecto en cuestión, con la base de datos actualizada y con el front-end y back-end terminados.
