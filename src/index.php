@@ -18,33 +18,12 @@
       <div class="container">
         <div>
           <div>
-            <label for="input">Searching for...</label>
+            <label for="input">Introduce información de una canción...</label>
           </div>
           <div>
             <input type="text" name="campo" id="campo" placeholder="">
           </div>
         </div>
-          
-        <div>
-          <div>
-            <label for="opcion">About...</label>
-          </div>
-          <div>
-            <select id="opcion" name="opcion">
-              <option value="Song">Song</option>
-              <option value="Album">Album</option> 
-              <option value="Artist">Artist</option>   
-            </select>
-          </div>
-        </div>
-          
-      <div id="lastDiv">
-        <div></div>
-        <div>
-          <button type="submit" id="search">Search</button>
-        </div>
-      </div>
-        
       </div>
     </section>
 
@@ -52,11 +31,11 @@
 
       <table>
         <thead>
-          <th>Num. empleado</th>
-          <th>Nombre</th>
-          <th>Apellido</th>
-          <th>Fecha nacimiento</th>
-          <th>Fecha ingreso</th>
+          <th>Canción</th>
+          <th>Artista</th>
+          <th>Album</th>
+          <th>Fecha</th>
+          <th>Duración</th>
         </thead>
 
         <tbody id="content">

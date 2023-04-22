@@ -3,10 +3,10 @@
 require 'config.php';
 
 /* Un array de las columnas a mostrar en la tabla */
-$columns = ['no_emp', 'nombre', 'apellido', 'fecha_nacimiento', 'fecha_ingreso'];
+$columns = ['cancion', 'artista', 'album', 'fecha', 'duracion'];
 
 /* Nombre de la tabla */
-$table = "empleados";
+$table = "canciones";
 
 $campo = isset($_POST['campo']) ? $conn->real_escape_string($_POST['campo']) : null;
 
@@ -39,11 +39,11 @@ $html = '';
 if ($num_rows > 0) {
     while ($row = $resultado->fetch_assoc()) {
         $html .= '<tr>';
-        $html .= '<td>' . $row['no_emp'] . '</td>';
-        $html .= '<td>' . $row['nombre'] . '</td>';
-        $html .= '<td>' . $row['apellido'] . '</td>';
-        $html .= '<td>' . $row['fecha_nacimiento'] . '</td>';
-        $html .= '<td>' . $row['fecha_ingreso'] . '</td>';
+        $html .= '<td>' . $row['cancion'] . '</td>';
+        $html .= '<td>' . $row['artista'] . '</td>';
+        $html .= '<td>' . $row['album'] . '</td>';
+        $html .= '<td>' . $row['fecha'] . '</td>';
+        $html .= '<td>' . $row['duracion'] . '</td>';
         $html .= '</tr>';
     }
 } else {

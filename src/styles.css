@@ -89,7 +89,7 @@ nav {
     .container input {
         display: block;
         height: 90%;
-        width: 90%;
+        width: 249%;
         font-size: 16px;
         line-height: 20px;
         border: 1px solid #c7c7c7;
@@ -102,29 +102,6 @@ nav {
       width: 40%;
       height: 100%;
     }
-    .container select{
-      display: block;
-      height: 100%;
-      width: 100%;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      font-size: 16px;
-      line-height: 20px;
-      border: 1px solid #c7c7c7;
-      border-radius: 4px;
-      color: #2d3133;
-    }
-
-    .container button {
-        width: 70%;
-        height: 100%;
-        font-size: 16px;
-        line-height: 20px;
-        border: 1px solid #c7c7c7;
-        border-radius: 4px;
-        color: #ffffff;
-        background-color: rgb(31, 24, 18);
-      }
       .container div:nth-child(3) div {
         height: 25%;
       }
@@ -139,8 +116,7 @@ nav {
   }
 
   #Data {
-    padding: 500px;
-    background-color: rgb(17, 24, 27);
+    background-color: rgb(0, 0, 0);
   }
 
   table, th, td{
@@ -149,6 +125,8 @@ nav {
   }
 
   table{
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
     border-collapse: collapse;
   }
