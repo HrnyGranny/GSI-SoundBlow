@@ -24,6 +24,24 @@
             <input type="text" name="campo" id="campo" placeholder="">
           </div>
         </div>
+        <div>
+          <div>
+            <label for="num_registros">Muestra...</label>
+          </div>
+          <div>
+            <select id="num_registros" name="num_registros">
+              <option value="20">20</option>
+              <option value="50">50</option>    
+              <option value="100">100</option> 
+            </select>
+          </div>
+        </div>
+        <div id="lastDiv">
+        <div></div>
+        <div>
+          <button id="Analizar">Analizar sonido</button>
+        </div>
+      </div>
       </div>
     </section>
 
@@ -47,5 +65,6 @@
     </section>
     <script src="js/TopDownBar.js"></script>
     <script src="js/Info.js"></script>
+    <script src="js/Boton.js"></script>
   </body>
 </html>

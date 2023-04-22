@@ -24,11 +24,17 @@ if ($campo != null) {
     $where .= ")";
 }
 
+/* Limit */
+
+$limit = isset($_POST['registros']) ? $conn->real_escape_string($_POST['registros']) : 10;
+
+$sLimit = "LIMIT $limit";
+
 /* Consulta */
 $sql = "SELECT " . implode(", ", $columns) . "
 FROM $table
-$where ";
-
+$where
+$sLimit ";
 $resultado = $conn->query($sql);
 $num_rows = $resultado->num_rows;
 
