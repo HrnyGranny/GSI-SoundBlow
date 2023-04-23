@@ -39,7 +39,7 @@
         <div id="lastDiv">
         <div></div>
         <div>
-          <button id="Analizar">Analizar sonido</button>
+          <button onclick="window.open('https://www.midomi.com/','_blank')">Analizar sonido</button>
         </div>
       </div>
       </div>
@@ -65,6 +65,5 @@
     </section>
     <script src="js/TopDownBar.js"></script>
     <script src="js/Info.js"></script>
-    <script src="js/Boton.js"></script>
   </body>
 </html>
