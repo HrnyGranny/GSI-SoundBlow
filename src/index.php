@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav>
-      <h1>Sound Blow</h1>
+      <h1>SoundBlow</h1>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#Data">Data</a></li>
